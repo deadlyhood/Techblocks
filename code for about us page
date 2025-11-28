@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 40px 60px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .hero p {
+      width: 60%;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 350px;
+      border-radius: 12px;
+      margin-top: 20px;
+      object-fit: cover;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin: 60px 0;
+    }
+
+    .stats div h2 {
+      margin: 0;
+      font-size: 28px;
+      color: #000;
+    }
+
+    .section {
+      padding: 40px 60px;
+    }
+
+    .section h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .team div {
+      text-align: center;
+    }
+
+    .team img {
+      width: 120px;
+      height: 120px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .testimonials {
+      padding: 40px 60px;
+    }
+
+    .testimonials-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .testimonial {
+      width: 30%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      background: #fafafa;
+    }
+
+    footer {
+      padding: 40px 60px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Logo</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <a class="btn" href="#">Get Started</a>
+  </header>
+
+  <section class="hero">
+    <h1>Innovative minds to boost your business</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec facilisis risus. Donec aliquet ipsum sit amet purus gravida.</p>
+    <img src="https://via.placeholder.com/900x350" alt="Hero Image" />
+  </section>
+
+  <div class="stats">
+    <div><h2>100+</h2><p>Projects Completed</p></div>
+    <div><h2>120+</h2><p>Happy Clients</p></div>
+    <div><h2>50+</h2><p>Team Members</p></div>
+    <div><h2>98%</h2><p>Satisfaction Rate</p></div>
+  </div>
+
+  <section class="section">
+    <h2>Simple and Effective Section Heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet quas culpa fugiat dignissimos voluptatum.</p>
+    <a class="btn" href="#">Explore</a>
+  </section>
+
+  <section class="section">
+    <h2>Meet our team members</h2>
+    <div class="team">
+      <div>
+        <img src="https://via.placeholder.com/120" />
+        <p><strong>John Stone</strong></p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/120" />
+        <p><strong>James Vick</strong></p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/120" />
+        <p><strong>Anne Paul</strong></p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/120" />
+        <p><strong>Karl Dome</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What our clients say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <p><strong>"Amazing service"</strong></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>- Client One</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>"The best service"</strong></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>- Client Two</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>"One of a kind"</strong></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>- Client Three</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
