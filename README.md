@@ -1,22 +1,3 @@
-/*
-  eco_tracker.c
-  Simple terminal-based environmental impact tracker for beginners
-  - Uses standard C library only
-  - Stores daily entries in eco_log.csv (created in the same directory)
-  - Shows daily/weekly/monthly footprints, habit tracking, simple ASCII charts,
-    color-coded status and action suggestions.
-
-  Compile:
-    gcc eco_tracker.c -o eco_tracker
-
-  Run:
-    ./eco_tracker
-
-  Author: ChatGPT (Acting as a professional C developer)
-  Notes: All numeric "emission factors" are simple illustrative approximations,
-         intended to teach and motivate — not for high-precision accounting.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
